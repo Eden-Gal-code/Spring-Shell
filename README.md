@@ -1,8 +1,9 @@
-EXERCISE-DMO:
+EXERCISE-DEMO:
 
 AVAILABLE COMMANDS
 
 Built-In Commands
+
         clear: Clear the shell screen.
         exit, quit: Exit the shell.
         help: Display help about available commands.
@@ -10,6 +11,7 @@ Built-In Commands
         stacktrace: Display the full stacktrace of the last error.
 
 Json Handler
+
         calculate: Gets a Json Object -Checking compatibility of numbers and strategy and calculating.
         format: Selecting data format : Json  {numbers,operator} is default
         strategy: Selecting number strategy : Positive is default
