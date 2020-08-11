@@ -1,0 +1,12 @@
+com/ezbob/exercise/ExerciseApplication.class
+com/ezbob/exercise/numbers/PositiveNumbers.class
+com/ezbob/exercise/formats/JsonFormat.class
+com/ezbob/exercise/commands/JsonHandler.class
+com/ezbob/exercise/shell/ClidemoPromptProvider.class
+com/ezbob/exercise/operators/Operator.class
+com/ezbob/exercise/formats/JsonNumbersOperator.class
+com/ezbob/exercise/formats/DataFormat.class
+com/ezbob/exercise/operators/OperatorFactory.class
+com/ezbob/exercise/operators/MinusOperator.class
+com/ezbob/exercise/operators/PlusOperator.class
+com/ezbob/exercise/numbers/NumberStrategy.class

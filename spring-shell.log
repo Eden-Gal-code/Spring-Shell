@@ -1,0 +1,88 @@
+1597071891023:help
+1597071901780:add 1 2
+1597072906517:help
+1597072950224:json_operation { "somthing":"somting else"}
+1597073000042:json_operation {"somthing":"somthingelse"}
+1597073401443:json_operation "{"som":"a"}"
+1597073428364:json_operation "{\\"som\\":\\"a\\"}"
+1597132918461:help
+1597132931879:select --format json
+1597133004010:select json
+1597133012292:select xml
+1597141987811:help
+1597141996927:format
+1597142004665:strategy
+1597142033624:calculate
+1597142104290:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597142219641:format
+1597142227775:strategy
+1597142238051:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597142487573:format
+1597142526878:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597142707063:format
+1597142710550:strategy
+1597142784358:format
+1597142788448:strategy
+1597142912503:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597142972306:format
+1597142975195:strategy
+1597142978278:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597142992259:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"minus\\"}
+1597143014522:calculate {\\"numbers\\":[1,2,-3,4,5],\\"operator\\":\\"plus\\"}
+1597143207461:calculate "{\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}"
+1597143414434:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"plus\\"}
+1597143542078:format
+1597143546574:strategy
+1597143550490:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"plus\\"}
+1597143582671:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597143590126:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"plus\\"}
+1597143827646:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"minus\\"}
+1597143917867:format
+1597143923196:strategy
+1597143951191:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597143976996:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"minus\\"}
+1597144057948:stacktrace
+1597144191166:format
+1597144194347:strategy
+1597144240421:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597144257672:calculate {\\"numbers\\":[1,2,-3,4,5],\\"operator\\":\\"plus\\"}
+1597144273708:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"minus\\"}
+1597144860798:format
+1597144863540:strategy
+1597144867143:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"minus\\"}
+1597144899021:format xml
+1597144966646:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"minus\\"}
+1597144976415:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"plus\\"}
+1597144988593:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597145124655:strategy {xnix}
+1597145135920:strategy positive
+1597145358856:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597145374617:help
+1597145598786:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597145604403:calculate {\\"numbers\\":[1,-2,3,4,5],\\"operator\\":\\"plus\\"}
+1597145612711:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"inus\\"}
+1597145635267:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"minus\\"}
+1597145669769:help
+1597145850420:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597145864774:help
+1597147560577:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597169962301:import org.jline.utils.AttributedString;
+1597169962347:import org.jline.utils.AttributedStyle;
+1597169962363:import org.springframework.shell.jline.PromptProvider;
+1597169962377:import org.springframework.stereotype.Component;
+1597169962387:@Component
+1597169962397:public class ClidemoPromptProvider implements PromptProvider {
+1597169962405:@Override
+1597169962413:public AttributedString getPrompt() {
+1597169962430:return new AttributedString(“CLI-DEMO:>”,
+1597169962442:AttributedStyle.DEFAULT.foreground(AttributedStyle.BLUE)
+1597169962452:);
+1597169962457:}
+1597170079037:}calculate {\\"numbers\\":[1,2,3,4,5,6,7],\\"operator\\"\\"plus\\"}
+1597170107835:calculate {\\"numbers\\":[1,2,3,4,5,6,7],\\"operator\\":\\"plus\\"}
+1597171531124:help
+1597171584900:calculate {\\"numbers\\":[1,2,34],\\"operator\\":\\"plus\\"}
+1597175715385:help
+1597176693949:exit
+1597176793099:calculate {\\"numbers\\":[1,2,3,4,5],\\"operator\\":\\"plus\\"}
+1597176868140:exit
